@@ -29,7 +29,7 @@
 <script>
 export default {
   name: 'index.route',
-  title: '分割面板',
+  title: '分割1',
 }
 </script>
 

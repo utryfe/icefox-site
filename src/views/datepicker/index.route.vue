@@ -61,7 +61,7 @@
 <script>
 export default {
   name: 'DatePicker',
-  title: '日期选择器',
+  title: '日期控件',
   data() {
     return {
       modelValue: '',

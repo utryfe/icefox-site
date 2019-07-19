@@ -15,7 +15,7 @@
 <script>
 export default {
   name: 'detail',
-  title: '笔记',
+  title: '分割2',
 }
 </script>
 

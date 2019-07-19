@@ -1,13 +1,13 @@
 <template>
-  <div class="dashboard">
+  <div class="home-page">
     首页
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Dashboard',
+  name: 'homePage',
   title: '首页',
-  nocache: false,
+  // nocache: false,
 }
 </script>

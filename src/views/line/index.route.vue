@@ -1,13 +1,11 @@
 <template>
-  <div class="module">
-    <input />
-  </div>
+  <div>假装有Echart图</div>
 </template>
 
 <script>
 export default {
-  name: 'module',
-  title: '组件',
+  name: 'index.route',
+  title: '线 图',
 }
 </script>
 
