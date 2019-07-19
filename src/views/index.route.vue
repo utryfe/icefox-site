@@ -45,7 +45,7 @@ export default {
           id: 'charts',
           title: '报表汇总',
           icon: 'el-icon-s-data',
-          children: [{ id: 'chart_2', title: 'eChart 图', route: '/line' }],
+          children: [{ id: 'chart_2', title: 'eChart 图', route: '/chart' }],
         },
         {
           id: 'pageTable',
