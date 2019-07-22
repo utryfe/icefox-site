@@ -46,14 +46,16 @@ export default {
             label: '城市',
             value: 'tag_id',
             list: 'tagTypeList',
+            size: 'medium',
           },
-          { type: 'input', label: '昵称', value: 'name' },
+          { type: 'input', label: '昵称', value: 'name', size: 'medium', },
           {
             type: 'button',
             label: '搜索',
             btType: 'primary',
             icon: 'el-icon-search',
             event: 'search',
+            size: 'medium',
             show: true,
           },
           {
@@ -62,12 +64,14 @@ export default {
             btType: 'primary',
             icon: 'el-icon-plus',
             event: 'create',
+            size: 'medium',
             show: true,
           },
           {
             type: 'date',
             // label: '日期',
             value: 'date',
+            size: 'medium',
           },
         ],
       },
@@ -82,15 +86,14 @@ export default {
         initCurrentPage: 1,
         data: [],
         fieldList: [
-          { label: '日期', prop: 'date', Width: 180 },
+          { label: '日期', prop: 'date', sortable: true, width: 250 },
           { label: '姓名', prop: 'name', width: 200 },
-          { label: '城市', prop: 'province' },
+          { label: '城市', prop: 'province', width: 300 },
         ],
         checkedList: [],
         handle: {
           fixed: 'right',
           label: '操作',
-          width: '200',
           btList: [
             {
               label: '查看',
@@ -217,7 +220,5 @@ export default {
 .container {
   height: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
 }
 </style>

@@ -53,8 +53,8 @@ export default {
           icon: 'el-icon-s-grid',
           children: [
             { id: 'pageTable_2', title: '表格1', route: '/table' },
-            { id: 'pageTable_3', title: '表格2', route: '/table1' },
-            { id: 'pageTable_4', title: '表格3', route: '/table2' },
+            { id: 'pageTable_3', title: '表格2', route: '/tree' },
+            { id: 'pageTable_4', title: '表格3', route: '/tab' },
           ],
         },
         {
