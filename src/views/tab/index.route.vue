@@ -88,7 +88,7 @@ export default {
           { label: '标签名称', prop: 'name' },
           { label: '所属分类', prop: 'type', width: 250 },
           { label: '标签建立时间', prop: 'date', sortable: true, width: 300 },
-          { label: '状态', prop: 'state', formatter: this.convertState },
+          { label: '状态', prop: 'status', formatter: this.convertStatus },
         ],
         checkedList: [],
         handle: {
@@ -102,7 +102,7 @@ export default {
               event: 'start',
               show: true,
               ifRender(row) {
-                return row.state === false
+                return row.status === false
               },
             },
             {
@@ -138,9 +138,9 @@ export default {
       }
     },
 
-    convertState(row) {
-      let state = row['state']
-      if (state === true) {
+    convertStatus(row) {
+      let status = row['status']
+      if (status === true) {
         return '启用中'
       }
       return '暂停中'
@@ -178,7 +178,7 @@ export default {
           checkedList.forEach((item) => {
             data.map((n) => {
               if (n.name === item) {
-                n.state = false
+                n.status = false
               }
               return n
             })
@@ -189,7 +189,7 @@ export default {
         case 'start':
           data.map((item) => {
             if (item.name === dataBase.name) {
-              item.state = true
+              item.status = true
             }
             return item
           })

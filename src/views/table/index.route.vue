@@ -48,7 +48,7 @@ export default {
             list: 'tagTypeList',
             size: 'medium',
           },
-          { type: 'input', label: '昵称', value: 'name', size: 'medium', },
+          { type: 'input', label: '昵称', value: 'name', size: 'medium' },
           {
             type: 'button',
             label: '搜索',

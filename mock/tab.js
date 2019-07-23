@@ -14,7 +14,7 @@ const tabDate = Mock.mock({
       name: '@ctitle(2, 4)',
       type: '@cword(2)',
       date: '@date("yyyy-MM-dd HH:mm:ss")',
-      state: true,
+      status: true,
     },
   ],
 
